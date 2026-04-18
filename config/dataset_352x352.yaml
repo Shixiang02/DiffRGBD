@@ -1,0 +1,87 @@
+train_dataset:
+  name: dataset.data_val.RGBD
+  params:
+    image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/train/RGB'
+    depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/train/depth'
+    gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/train/GT'
+    trainsize: 352
+
+test_dataset:
+  DUT:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/DUT/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/DUT/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/DUT/GT'
+      testsize: 352
+  LFSD:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/LFSD/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/LFSD/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/LFSD/GT'
+      testsize: 352
+  NJU2K:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NJU2K/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NJU2K/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NJU2K/GT'
+      testsize: 352
+  NLPR:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NLPR/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NLPR/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/NLPR/GT'
+      testsize: 352
+  RGBD135:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/RGBD135/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/RGBD135/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/RGBD135/GT'
+      testsize: 352
+  SIP:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SIP/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SIP/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SIP/GT'
+      testsize: 352
+  SSD:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SSD/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SSD/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/SSD/GT'
+      testsize: 352
+  STERE:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE/GT'
+      testsize: 352
+  STERE1000:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE1000/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE1000/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/STERE1000/GT'
+      testsize: 352
+  mixed:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/mixed/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/mixed/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/mixed/GT'
+      testsize: 352
+  single:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/single/RGB'
+      depth_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/single/depth'
+      gt_root: '/media/user/HDD/ssx_project/dataset/RGBD_dataset/test/single/GT'
+      testsize: 352
+  
