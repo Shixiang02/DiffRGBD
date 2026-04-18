@@ -60,7 +60,7 @@ accelerate launch train.py \
 
 
 ## 🧪 Pre-trained Model & Testing
-  Download pretrained model: [our_checkpoint](https://pan.baidu.com/s/1eDM5FUqjBLkRtiejegTziw)(code: XHCL)
+  Download pretrained model: [our_checkpoint](https://pan.baidu.com/s/1eDM5FUqjBLkRtiejegTziw)(code: `XHCL`)
   
   Run inference：
   accelerate launch sample.py \
