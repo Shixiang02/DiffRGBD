@@ -37,6 +37,9 @@ Evaluated on the following datasets:
 <div align="center">
   <img src="https://github.com/Shixiang02/DiffRGBD/blob/main/image/table.png" width="80%">
 </div>
+<div align="center">
+  <img src="https://github.com/Shixiang02/DiffRGBD/blob/main/image/table_1.png" width="80%">
+</div>
 
 ---
 
