@@ -76,7 +76,7 @@ accelerate launch train.py \
 
 # 🙏 Acknowledgements
    
-This work is built upon: [Camodiffusion](https://github.com/Rapisurazurite/CamoDiffusion) and [SAM2UNet](https://github.com/WZH0120/SAM2-UNet).
+This work is built upon [Camodiffusion](https://github.com/Rapisurazurite/CamoDiffusion) and [SAM2UNet](https://github.com/WZH0120/SAM2-UNet).
 We sincerely thank the authors for their great contributions.
 
 # 📬 Contact
